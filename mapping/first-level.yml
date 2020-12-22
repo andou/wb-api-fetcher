@@ -1,0 +1,4 @@
+first_level_node_types:
+  - node--section_home_page_title_module
+  - node--content_module
+  - node--infographic_module
