@@ -41,11 +41,11 @@ class FetchCommand extends Command
 
         $this
             ->addArgument('uuid', InputArgument::REQUIRED, 'The content id')
+            ->addArgument('baseurl', InputArgument::OPTIONAL, 'The Base URL', $this->getBaseUrl())
             ->addArgument('entity_bundle', InputArgument::OPTIONAL, 'The content entity bundle.', "editorial_page")
             ->addArgument('type', InputArgument::OPTIONAL, 'The content type', "single_page_content")
             ->addArgument('first_level', InputArgument::OPTIONAL, 'The parsing specs for first level elements', $this->getFirstLevelYml())
             ->addArgument('mapping', InputArgument::OPTIONAL, 'The parsing specs for whole mapping', $this->getMappingYml())
-            ->addArgument('baseurl', InputArgument::OPTIONAL, 'The Base URL', $this->getBaseUrl())
             ->addArgument('api_endpoint', InputArgument::OPTIONAL, 'The API endpoint', $this->getApiEndpoint());
 
     }
