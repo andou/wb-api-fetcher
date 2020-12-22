@@ -152,35 +152,10 @@ class FetchCommand extends Command
                 '------------------------',
             ]);
 
-            foreach ($node_content as $k => $v) {
-                $output->writeln([
-                    "<comment>{$k}</comment>",
-                ]);
-                if (is_array($v)) {
-                    foreach ($v as $kk => $vv) {
-                        if (is_array($vv)) {
-                            $output->writeln([
-                                "-",
-                            ]);
-                            foreach ($vv as $kkk => $vvv) {
-                                $output->writeln([
-                                    "    <comment>{$kkk}</comment> <info>{$vvv}</info>",
-                                ]);
-                            }
-                        } else {
-                            $output->writeln([
-                                "    <comment>{$kk}</comment>",
-                                "        <info>{$vv}</info>",
-                            ]);
-                        }
-                    }
-                } else {
-                    $output->writeln([
-                        "    <info>{$v}</info>",
-                    ]);
-                }
-            }
+            echo json_encode($node_content, JSON_PRETTY_PRINT);
+
             $output->writeln([
+                '',
                 '=======================',
             ]);
 

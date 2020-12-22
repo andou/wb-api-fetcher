@@ -1,4 +1,7 @@
 first_level_node_types:
-  - node--section_home_page_title_module
-  - node--content_module
-  - node--infographic_module
+  - node--section_home_page_title_module # Used in Group
+  - node--content_module # Used in Group
+  - node--infographic_module # Used in Group
+  - node--simple_slider_module # Used in HP
+  - node--multipurpose_module # Used in HP
+  - node--view_module # Used in HP
