@@ -59,13 +59,13 @@ Here are the current pages
 
 | Page | Link | ID |
 | ---- | ---- | -- |
-| HOMEPAGE | https://www.webuildgroup.com/it/homepage-app-test |
-| GRUPPO  | http://testapp.salini-impregilo.doing.com/it/il-gruppo |
-| AREA DI BUSINESS  | http://testapp.salini-impregilo.doing.com/it/progetti/sustainable-mobility |
-| SOSTENIBILITA’  | http://testapp.salini-impregilo.doing.com/it/sostenibilita |
-| INVESTITORI  | http://testapp.salini-impregilo.doing.com/it/investitori |
-| INVESTITORI  | STRATEGIA - http://testapp.salini-impregilo.doing.com/it/investitori/strategia |
-| RISULTATI FINANZIARI  | http://testapp.salini-impregilo.doing.com/it/investitori/risultati-finanziari |
-| COMUNICATI STAMPA  | http://testapp.salini-impregilo.doing.com/it/media/comunicati-stampa |
-| EVENTI  | http://testapp.salini-impregilo.doing.com/it/investitori/calendario |
-| PODCAST  | https://www.webuildgroup.com/it/podcast-webuild-app |
+| HOMEPAGE | [/it/homepage-app-test](https://www.webuildgroup.com/it/homepage-app-test) | |
+| GRUPPO  | [/it/il-gruppo](http://testapp.salini-impregilo.doing.com/it/il-gruppo) | |
+| AREA DI BUSINESS  | [/it/progetti/sustainable-mobility](http://testapp.salini-impregilo.doing.com/it/progetti/sustainable-mobility) | |
+| SOSTENIBILITA’  | [/it/sostenibilita](http://testapp.salini-impregilo.doing.com/it/sostenibilita) | |
+| INVESTITORI  | [/it/investitori](http://testapp.salini-impregilo.doing.com/it/investitori) | |
+| STRATEGIA | [/it/investitori/strategia](http://testapp.salini-impregilo.doing.com/it/investitori/strategia) | |
+| RISULTATI FINANZIARI  | [/it/investitori/risultati-finanziari](http://testapp.salini-impregilo.doing.com/it/investitori/risultati-finanziari) | |
+| COMUNICATI STAMPA  | [/it/media/comunicati-stampa](http://testapp.salini-impregilo.doing.com/it/media/comunicati-stampa) | |
+| EVENTI  | [/it/investitori/calendario](http://testapp.salini-impregilo.doing.com/it/investitori/calendario) | |
+| PODCAST  | [/it/podcast-webuild-app](https://www.webuildgroup.com/it/podcast-webuild-app) | |
