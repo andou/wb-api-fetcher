@@ -28,6 +28,13 @@ Here are the current pages
 php bin/console app:fetch 96eea71d-50ac-429a-848a-a47851c2eeb8 https://corporatebe.webuildgroup.com
 ```
 
+### Note
+- Occorre hardcodare l'immagine di Canvas
+- Occorre hardcodare le immagini per "_Il mondo Webuild_" (evidenziato da WB) 
+- Manca in API la sezione "_Il mondo Webuild_"
+- Mancano in API le immagini per le news
+- La sezione eventi è realizzata tramite modulo `node--view_module`
+
 ## Gruppo
 
 |   |   |
@@ -40,6 +47,14 @@ php bin/console app:fetch 96eea71d-50ac-429a-848a-a47851c2eeb8 https://corporate
 ```
 php bin/console app:fetch 45781018-f9d5-49c6-b8f3-8d3f1f491a11 http://corporatebe-qa.salini-impregilo.doing.com
 ```
+
+### Note
+- WB dice che va hardcodata immagine di canvas ma in realtà può essere restituita tramite API nel modulo `node--section_home_page_title_module`
+- Sono presenti due moduli `node--infographic_module` che dovrebbero venir visualizzati in maniera distinta in APP, preceduti dal titoletto "Track record", non restituito dalle API e con 7 immagini, non restituite dalla app
+  - Si potrebbe pensare di hardcodare il titoletto e gestire le due visualizzazioni in maniera differente a seconda dell'ordine di restituzione dei due moduli, il primo in un modo, il secondo nell'altro
+  - Occorre hardcodare le 7 immagini (evidenziato anche da WB)  
+- Manca in API l'immagine per "_Sostenibilità_"
+- Manca in API l'immagine per "_Risultati finanziari_"
 
 ## Sustainable mobility
 
