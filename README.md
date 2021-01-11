@@ -53,3 +53,19 @@ FIRST_LEVEL=mapping/first-level.yml
 ###< app/env-configs ###
 ```
 
+### Pages
+
+Here are the current pages
+
+| Page | Link | ID |
+| ---- | ---- | -- |
+| HOMEPAGE | https://www.webuildgroup.com/it/homepage-app-test |
+| GRUPPO  | http://testapp.salini-impregilo.doing.com/it/il-gruppo |
+| AREA DI BUSINESS  | http://testapp.salini-impregilo.doing.com/it/progetti/sustainable-mobility |
+| SOSTENIBILITA’  | http://testapp.salini-impregilo.doing.com/it/sostenibilita |
+| INVESTITORI  | http://testapp.salini-impregilo.doing.com/it/investitori |
+| INVESTITORI  | STRATEGIA - http://testapp.salini-impregilo.doing.com/it/investitori/strategia |
+| RISULTATI FINANZIARI  | http://testapp.salini-impregilo.doing.com/it/investitori/risultati-finanziari |
+| COMUNICATI STAMPA  | http://testapp.salini-impregilo.doing.com/it/media/comunicati-stampa |
+| EVENTI  | http://testapp.salini-impregilo.doing.com/it/investitori/calendario |
+| PODCAST  | https://www.webuildgroup.com/it/podcast-webuild-app |
