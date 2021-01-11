@@ -60,7 +60,7 @@ Here are the current pages
 | Page | Link | ID |
 | ---- | ---- | -- |
 | HOMEPAGE | [/it/homepage-app-test](https://www.webuildgroup.com/it/homepage-app-test) | |
-| GRUPPO  | [/it/il-gruppo](http://testapp.salini-impregilo.doing.com/it/il-gruppo) | |
+| GRUPPO  | [/it/il-gruppo](http://testapp.salini-impregilo.doing.com/it/il-gruppo) | 45781018-f9d5-49c6-b8f3-8d3f1f491a11 |
 | AREA DI BUSINESS  | [/it/progetti/sustainable-mobility](http://testapp.salini-impregilo.doing.com/it/progetti/sustainable-mobility) | |
 | SOSTENIBILITA’  | [/it/sostenibilita](http://testapp.salini-impregilo.doing.com/it/sostenibilita) | |
 | INVESTITORI  | [/it/investitori](http://testapp.salini-impregilo.doing.com/it/investitori) | |
@@ -69,3 +69,44 @@ Here are the current pages
 | COMUNICATI STAMPA  | [/it/media/comunicati-stampa](http://testapp.salini-impregilo.doing.com/it/media/comunicati-stampa) | |
 | EVENTI  | [/it/investitori/calendario](http://testapp.salini-impregilo.doing.com/it/investitori/calendario) | |
 | PODCAST  | [/it/podcast-webuild-app](https://www.webuildgroup.com/it/podcast-webuild-app) | |
+
+#### Homepage
+
+|   |   |
+| - | - |
+| URI | https://www.webuildgroup.com/it/homepage-app-test |
+| Base URL | https://corporatebe.webuildgroup.com |
+| ID | 96eea71d-50ac-429a-848a-a47851c2eeb8 |
+
+```
+php bin/console app:fetch 96eea71d-50ac-429a-848a-a47851c2eeb8 https://corporatebe.webuildgroup.com
+```
+
+#### Gruppo
+
+|   |   |
+| - | - |
+| URI | http://testapp.salini-impregilo.doing.com/it/il-gruppo |
+| Base URL | http://corporatebe-qa.salini-impregilo.doing.com |
+| ID | 45781018-f9d5-49c6-b8f3-8d3f1f491a11 |
+
+```
+php bin/console app:fetch 45781018-f9d5-49c6-b8f3-8d3f1f491a11 http://corporatebe-qa.salini-impregilo.doing.com
+```
+
+#### Area di business
+
+#### Sostenibilità
+
+#### Investitori
+
+#### Strategia
+
+#### Risultati finanziari
+
+#### Comunicati stampa
+
+#### Eventi
+
+#### Podcast
+
