@@ -97,6 +97,7 @@ php bin/console app:fetch a838fad4-8d5e-476b-b1b1-64facac576ed http://corporateb
 
 |   |   |
 | - | - |
+| Status | **Mapped** |
 | URI | http://testapp.salini-impregilo.doing.com/it/investitori/risultati-finanziari |
 | Base URL | http://corporatebe-qa.salini-impregilo.doing.com |
 | ID | 10ccf123-d9f0-4c19-a225-365a44e8a5ae |

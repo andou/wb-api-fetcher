@@ -113,7 +113,7 @@ class FetchCommand extends Command
 
         $statusCode = $response->getStatusCode();
         $contentType = $response->getHeaders()['content-type'][0];
-        $content = $response->toArray();
+        $content = $response->toArray();$display_last_update = (isset($content['data']) && isset($content['data']['attributes']) && isset($content['data']['attributes']['field_display_last_update']) && !empty($content['data']['attributes']['field_display_last_update'])) ? $content['data']['attributes']['field_display_last_update'] : false;
 
         $output->writeln([
             '=======================',
@@ -122,6 +122,7 @@ class FetchCommand extends Command
             '',
             "Status Code:           <info>{$statusCode}</info>",
             "Content Type:          <info>{$contentType}</info>",
+            "Display Last Update:          <info>{$display_last_update}</info>",
             '',
         ]);
 
