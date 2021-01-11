@@ -61,7 +61,7 @@ Here are the current pages
 | ---- | ---- | -- |
 | HOMEPAGE | [/it/homepage-app-test](https://www.webuildgroup.com/it/homepage-app-test) | 96eea71d-50ac-429a-848a-a47851c2eeb8 |
 | GRUPPO  | [/it/il-gruppo](http://testapp.salini-impregilo.doing.com/it/il-gruppo) | 45781018-f9d5-49c6-b8f3-8d3f1f491a11 |
-| AREA DI BUSINESS  | [/it/progetti/sustainable-mobility](http://testapp.salini-impregilo.doing.com/it/progetti/sustainable-mobility) | 0e9476dd-9b99-4489-b120-7e67f2a12f74 |
+| AREA DI BUSINESS / SUSTAINABLE MOBILITY  | [/it/progetti/sustainable-mobility](http://testapp.salini-impregilo.doing.com/it/progetti/sustainable-mobility) | 0e9476dd-9b99-4489-b120-7e67f2a12f74 |
 | SOSTENIBILITA’  | [/it/sostenibilita](http://testapp.salini-impregilo.doing.com/it/sostenibilita) | b2d1ff2a-a44d-456b-a5ba-b57e8c050663 |
 | INVESTITORI  | [/it/investitori](http://testapp.salini-impregilo.doing.com/it/investitori) | 9ee765ce-2619-4c61-8f2d-8cdccc4d7ee4 |
 | STRATEGIA | [/it/investitori/strategia](http://testapp.salini-impregilo.doing.com/it/investitori/strategia) | a838fad4-8d5e-476b-b1b1-64facac576ed |
@@ -71,6 +71,8 @@ Here are the current pages
 | PODCAST  | [/it/podcast-webuild-app](https://www.webuildgroup.com/it/podcast-webuild-app) | ad502821-87e7-4734-8ded-154647d3443e |
 
 #### Homepage
+
+**Mapped** except the _view_ module
 
 |   |   |
 | - | - |
@@ -84,6 +86,8 @@ php bin/console app:fetch 96eea71d-50ac-429a-848a-a47851c2eeb8 https://corporate
 
 #### Gruppo
 
+**Mapped**
+
 |   |   |
 | - | - |
 | URI | http://testapp.salini-impregilo.doing.com/it/il-gruppo |
@@ -94,7 +98,9 @@ php bin/console app:fetch 96eea71d-50ac-429a-848a-a47851c2eeb8 https://corporate
 php bin/console app:fetch 45781018-f9d5-49c6-b8f3-8d3f1f491a11 http://corporatebe-qa.salini-impregilo.doing.com
 ```
 
-#### Area di business
+#### Sustainable mobility
+
+**Mapped**
 
 |   |   |
 | - | - |
@@ -107,6 +113,8 @@ php bin/console app:fetch 0e9476dd-9b99-4489-b120-7e67f2a12f74 http://corporateb
 ```
 
 #### Sostenibilità
+
+**Mapped**
 
 |   |   |
 | - | - |
