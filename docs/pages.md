@@ -83,6 +83,7 @@ php bin/console app:fetch 9ee765ce-2619-4c61-8f2d-8cdccc4d7ee4 http://corporateb
 
 |   |   |
 | - | - |
+| Status | **Mapped** |
 | URI | http://testapp.salini-impregilo.doing.com/it/investitori/strategia |
 | Base URL | http://corporatebe-qa.salini-impregilo.doing.com |
 | ID | a838fad4-8d5e-476b-b1b1-64facac576ed |
