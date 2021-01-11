@@ -40,6 +40,19 @@ mapping:
       background: field_background
     relationship:
       tabs: field_slides_editorial_blocks > data >>
+  node--text_image_2_cols_module:
+    direct:
+      title: field_title_bold > processed
+      background: field_background
+      content: field_content > processed
+    relationship:
+      image: field_image_media > data > id >> field_media_image > data > id >>
+      cta: field_cta_related_content > data >>
+  single_page_content--editorial_page:
+    direct:
+      title: field_title
+    super:
+      id: id
   editorial_slide_block--info_boxes_block:
     direct:
       number: field_end_number
@@ -53,6 +66,8 @@ mapping:
     direct:
       label: field_cta_label
       url: field_external_link > uri
+    relationship:
+      internal_page: field_related_content > data >>
   editorial_slide_block--media_preview_block:
     direct:
       title: field_title_bold > processed

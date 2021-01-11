@@ -192,6 +192,7 @@ class FetchCommand extends Command
         $content = [];
 
         $parsing_specs = $this->getParsingSpec($node_type);
+
         if (!empty($parsing_specs)) {
             $content = [];
             if (isset($parsing_specs['direct']) && !empty($parsing_specs['direct'])) {
@@ -215,11 +216,31 @@ class FetchCommand extends Command
                 }
             }
 
+            if (isset($parsing_specs['super']) && !empty($parsing_specs['super'])) {
+                $super = $parsing_specs['super'];
+                foreach ($super as $k => $p) {
+                    $path = explode(self::$yaml_delimiter, $p);
+                    $res = $node;
+                    $found = !empty($res);
+                    foreach ($path as $_p) {
+                        $_p = trim($_p);
+                        if (isset($res[$_p])) {
+                            $res = $res[$_p];
+                        } else {
+                            $found = false;
+                        }
+                    }
+                    if ($found) {
+                        $content[$k] = $res;
+                    }
+                }
+            }
+
             if (isset($parsing_specs['relationship']) && !empty($parsing_specs['relationship'])) {
                 $node_rels = $node['relationships'];
                 $relationships = $parsing_specs['relationship'];
-                $cnt = 1;
                 foreach ($relationships as $k => $p) {
+                    $cnt = 1;
                     $rel_path = explode(self::$yaml_rel_delimiter, $p);
                     $rel_deep = count($rel_path);
                     $res = $node_rels;
