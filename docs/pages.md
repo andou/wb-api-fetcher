@@ -121,6 +121,7 @@ php bin/console app:fetch f3e954fb-1c1b-4866-b972-11028511eb15 http://corporateb
 
 |   |   |
 | - | - |
+| Status | **Mapped** except for the _view_ module |
 | URI | http://testapp.salini-impregilo.doing.com/it/investitori/calendario |
 | Base URL | http://corporatebe-qa.salini-impregilo.doing.com |
 | ID | 57dd64d4-8869-4c68-ae41-b8f880f090b5 |
@@ -133,6 +134,7 @@ php bin/console app:fetch 57dd64d4-8869-4c68-ae41-b8f880f090b5 http://corporateb
 
 |   |   |
 | - | - |
+| Status | **Mapped** |
 | URI | https://www.webuildgroup.com/it/podcast-webuild-app |
 | Base URL | https://corporatebe.webuildgroup.com |
 | ID | ad502821-87e7-4734-8ded-154647d3443e |
