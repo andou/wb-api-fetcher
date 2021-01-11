@@ -108,6 +108,7 @@ php bin/console app:fetch 10ccf123-d9f0-4c19-a225-365a44e8a5ae http://corporateb
 
 |   |   |
 | - | - |
+| Status | **Mapped** except for the _view_ module |
 | URI | http://testapp.salini-impregilo.doing.com/it/media/comunicati-stampa |
 | Base URL | http://corporatebe-qa.salini-impregilo.doing.com |
 | ID | f3e954fb-1c1b-4866-b972-11028511eb15 |
