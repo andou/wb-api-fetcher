@@ -34,11 +34,21 @@ mapping:
   file--file:
     direct:
       url: uri > url
+  node--tabs_module:
+    direct:
+      title: field_title_bold > processed
+      background: field_background
+    relationship:
+      tabs: field_slides_editorial_blocks > data >>
   editorial_slide_block--info_boxes_block:
     direct:
       number: field_end_number
       suffix: field_suffix
       label: field_number_label
+  editorial_slide_block--tab_block:
+    direct:
+      title: field_title_bold > processed
+      text: field_text > processed
   node--cta_related_content:
     direct:
       label: field_cta_label

@@ -5,3 +5,4 @@ first_level_node_types:
   - node--simple_slider_module # Used in HP
   - node--multipurpose_module # Used in HP
   - node--view_module # Used in HP
+  - node--tabs_module # Used in Sostenibilità
