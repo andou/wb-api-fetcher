@@ -20,6 +20,7 @@ Here are the current pages
 - Non è stata montata la pagina _media / webuild racconta_
 - Non è stata montata la pagina _media / news_
   - Non è chiaro in app quale sarebbe la pagina montata _comunicati stampa_, forse il link sul blocco _news_ in homepage?
+- Non è chiaro da dove recuperare le info sui valori delle stock options
 
 ## Homepage
 
@@ -79,6 +80,8 @@ php bin/console app:fetch 45781018-f9d5-49c6-b8f3-8d3f1f491a11 http://corporateb
 ```
 php bin/console app:fetch 0e9476dd-9b99-4489-b120-7e67f2a12f74 http://corporatebe-qa.salini-impregilo.doing.com
 ```
+### Note
+- Non è chiaro come ricondurre la pagina CMS al design della APP
 
 ## Sostenibilità
 
@@ -131,6 +134,8 @@ php bin/console app:fetch 9ee765ce-2619-4c61-8f2d-8cdccc4d7ee4 http://corporateb
 ```
 php bin/console app:fetch a838fad4-8d5e-476b-b1b1-64facac576ed http://corporatebe-qa.salini-impregilo.doing.com
 ```
+### Note
+- Sembra esserci tutto
 
 ## Risultati finanziari
 
@@ -160,6 +165,8 @@ php bin/console app:fetch 10ccf123-d9f0-4c19-a225-365a44e8a5ae http://corporateb
 ```
 php bin/console app:fetch f3e954fb-1c1b-4866-b972-11028511eb15 http://corporatebe-qa.salini-impregilo.doing.com
 ```
+### Note
+- La sezione news è realizzata tramite modulo `node--view_module` e sembra contenere i soli comunicati stampa, non dovrebbe contenere tutte le news?
 
 ## Eventi
 
