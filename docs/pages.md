@@ -16,11 +16,12 @@ Here are the current pages
 | PODCAST  | [/it/podcast-webuild-app](https://www.webuildgroup.com/it/podcast-webuild-app) | ad502821-87e7-4734-8ded-154647d3443e |
 
 ### Note
-- Non è stata montata la pagina _progetti_
-- Non è stata montata la pagina _media / webuild racconta_
-- Non è stata montata la pagina _media / news_
+- Non è stata montata da WB la pagina _progetti_
+- Non è stata montata da WB la pagina _media / webuild racconta_
+- Non è stata montata da WB la pagina _media / news_
   - Non è chiaro in app quale sarebbe la pagina montata _comunicati stampa_, forse il link sul blocco _news_ in homepage?
-- Non è chiaro da dove recuperare le info sui valori delle stock options (forse https://www.stockexpert.it/doraserver/sections/68/tuplas)
+- Non è chiaro da dove recuperare le info sui valori delle stock options
+  - forse https://www.stockexpert.it/doraserver/sections/68/tuplas
 
 ## Homepage
 
