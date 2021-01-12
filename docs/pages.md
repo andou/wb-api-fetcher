@@ -20,7 +20,7 @@ Here are the current pages
 - Non è stata montata la pagina _media / webuild racconta_
 - Non è stata montata la pagina _media / news_
   - Non è chiaro in app quale sarebbe la pagina montata _comunicati stampa_, forse il link sul blocco _news_ in homepage?
-- Non è chiaro da dove recuperare le info sui valori delle stock options
+- Non è chiaro da dove recuperare le info sui valori delle stock options (forse https://www.stockexpert.it/doraserver/sections/68/tuplas)
 
 ## Homepage
 
