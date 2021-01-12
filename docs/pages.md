@@ -200,3 +200,7 @@ php bin/console app:fetch ad502821-87e7-4734-8ded-154647d3443e https://corporate
 ### Note
 - E' presente in API un nodo duplicato (_Da Salini a Webuild, venti anni di grandi opere in Italia e nel mondo_)
 
+# Tutti assieme
+```
+php bin/console app:fetch 96eea71d-50ac-429a-848a-a47851c2eeb8 https://corporatebe.webuildgroup.com;php bin/console app:fetch 45781018-f9d5-49c6-b8f3-8d3f1f491a11 http://corporatebe-qa.salini-impregilo.doing.com;php bin/console app:fetch 0e9476dd-9b99-4489-b120-7e67f2a12f74 http://corporatebe-qa.salini-impregilo.doing.com;php bin/console app:fetch b2d1ff2a-a44d-456b-a5ba-b57e8c050663 http://corporatebe-qa.salini-impregilo.doing.com;php bin/console app:fetch 9ee765ce-2619-4c61-8f2d-8cdccc4d7ee4 http://corporatebe-qa.salini-impregilo.doing.com;php bin/console app:fetch a838fad4-8d5e-476b-b1b1-64facac576ed http://corporatebe-qa.salini-impregilo.doing.com;php bin/console app:fetch 10ccf123-d9f0-4c19-a225-365a44e8a5ae http://corporatebe-qa.salini-impregilo.doing.com;php bin/console app:fetch f3e954fb-1c1b-4866-b972-11028511eb15 http://corporatebe-qa.salini-impregilo.doing.com;php bin/console app:fetch 57dd64d4-8869-4c68-ae41-b8f880f090b5 http://corporatebe-qa.salini-impregilo.doing.com;php bin/console app:fetch ad502821-87e7-4734-8ded-154647d3443e https://corporatebe.webuildgroup.com
+```
