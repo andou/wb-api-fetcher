@@ -66,8 +66,8 @@ php bin/console app:fetch 45781018-f9d5-49c6-b8f3-8d3f1f491a11 http://corporateb
 - Sono presenti due moduli `node--infographic_module` che dovrebbero venir visualizzati in maniera distinta in APP, preceduti dal titoletto "Track record", non restituito dalle API e con 7 immagini, non restituite dalla app
   - Si potrebbe pensare di hardcodare il titoletto e gestire le due visualizzazioni in maniera differente a seconda dell'ordine di restituzione dei due moduli, il primo in un modo, il secondo nell'altro
   - Occorre hardcodare le 7 immagini (evidenziato anche da WB)  
-- Manca in pagina ed in API l'immagine per "_Sostenibilità_"
-- Manca in pagina ed in API l'immagine per "_Risultati finanziari_"
+- ~~Manca in pagina ed in API l'immagine per "_Sostenibilità_"~~
+- ~~Manca in pagina ed in API l'immagine per "_Risultati finanziari_"~~
 
 ## Sustainable mobility
 

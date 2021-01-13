@@ -25,6 +25,13 @@ mapping:
       background: field_background
     relationship:
       slides: field_editorial_slide_block > data >>
+  node--thematic_blocks_module:
+    direct:
+      title: field_title_bold > processed
+      background: field_background
+      content: field_content > processed
+    relationship:
+      cta: field_cta_related_content > data >>
   node--multipurpose_module:
     direct:
       title: field_title_bold > processed

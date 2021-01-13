@@ -7,3 +7,4 @@ first_level_node_types:
   - node--view_module # Used in HP
   - node--tabs_module # Used in Sostenibilità
   - node--text_image_2_cols_module # Used in investitori
+  - node--thematic_blocks_module # Used in Group
