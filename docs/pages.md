@@ -97,10 +97,6 @@ php bin/console app:fetch b2d1ff2a-a44d-456b-a5ba-b57e8c050663 http://corporateb
 
 ### Note
 - WB dice che va hardcodata immagine di canvas ma in realtà può essere restituita tramite API nel modulo `node--section_home_page_title_module`
-- Il claim su "I nostri impegni" potrebbe essere il contenuto del primo modulo `node--content_module`
-- Manca in pagina ed in API il titoletto "_Strategia di sostenibilità_" nel modulo `node--tabs_module`
-- Manca in pagina ed in API la CTA "_Rapporto di Sostenibilità_" nel modulo `node--tabs_module`
-- Le immagini dell'ultimo modulo `node--content_module` per il Rating ESG sono in free HTML e potrebbe essere un problema visualizzarle in APP
 
 ## Investitori
 
@@ -147,6 +143,7 @@ php bin/console app:fetch 10ccf123-d9f0-4c19-a225-365a44e8a5ae http://corporateb
 ```
 
 ### Note
+- Sembra esserci tutto
 
 ## Comunicati stampa
 
@@ -176,7 +173,7 @@ php bin/console app:fetch f3e954fb-1c1b-4866-b972-11028511eb15 http://corporateb
 php bin/console app:fetch 57dd64d4-8869-4c68-ae41-b8f880f090b5 http://corporatebe-qa.salini-impregilo.doing.com
 ```
 ### Note
-- Sembra tutto ok
+- Sembra esserci tutto
  
 ## Podcast
 
@@ -191,8 +188,7 @@ php bin/console app:fetch 57dd64d4-8869-4c68-ae41-b8f880f090b5 http://corporateb
 php bin/console app:fetch ad502821-87e7-4734-8ded-154647d3443e https://corporatebe.webuildgroup.com
 ```
 ### Note
-- E' presente in API un nodo duplicato (_Da Salini a Webuild, venti anni di grandi opere in Italia e nel mondo_)
-
+- Sembra esserci tutto
 
 ## Tutti assieme
 
