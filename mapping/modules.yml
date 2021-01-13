@@ -74,6 +74,8 @@ mapping:
     direct:
       title: field_title_bold > processed
       text: field_text > processed
+    relationship:
+      file_csv: field_csv_file_media > data > id >> field_media_document > data > id >>
   node--cta_related_content:
     direct:
       label: field_cta_label

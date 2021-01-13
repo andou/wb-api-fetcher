@@ -106,7 +106,7 @@ php bin/console app:fetch b2d1ff2a-a44d-456b-a5ba-b57e8c050663 http://corporateb
 
 |   |   |
 | - | - |
-| Status | **Mapped** except for the _csv_ |
+| Status | **Mapped** |
 | URI | http://testapp.salini-impregilo.doing.com/it/investitori |
 | Base URL | http://corporatebe-qa.salini-impregilo.doing.com |
 | ID | 9ee765ce-2619-4c61-8f2d-8cdccc4d7ee4 |
@@ -137,7 +137,7 @@ php bin/console app:fetch a838fad4-8d5e-476b-b1b1-64facac576ed http://corporateb
 
 |   |   |
 | - | - |
-| Status | **Mapped** except for the _csv_ |
+| Status | **Mapped** |
 | URI | http://testapp.salini-impregilo.doing.com/it/investitori/risultati-finanziari |
 | Base URL | http://corporatebe-qa.salini-impregilo.doing.com |
 | ID | 10ccf123-d9f0-4c19-a225-365a44e8a5ae |
@@ -147,7 +147,6 @@ php bin/console app:fetch 10ccf123-d9f0-4c19-a225-365a44e8a5ae http://corporateb
 ```
 
 ### Note
-- Mancano del tutto le informazioni sui risultati finanziari nel nodo `node--tabs_module`
 
 ## Comunicati stampa
 
