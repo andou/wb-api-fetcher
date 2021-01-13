@@ -108,7 +108,7 @@ php bin/console app:fetch b2d1ff2a-a44d-456b-a5ba-b57e8c050663 http://corporateb
 
 |   |   |
 | - | - |
-| Status | **Mapped** except for the _view_ module |
+| Status | **Mapped** except for the _csv_ |
 | URI | http://testapp.salini-impregilo.doing.com/it/investitori |
 | Base URL | http://corporatebe-qa.salini-impregilo.doing.com |
 | ID | 9ee765ce-2619-4c61-8f2d-8cdccc4d7ee4 |
@@ -122,6 +122,7 @@ php bin/console app:fetch 9ee765ce-2619-4c61-8f2d-8cdccc4d7ee4 http://corporateb
 - La sezione eventi è realizzata tramite modulo `node--view_module`
 - Manca in pagina ed in API il collegamento alla pagina _eventi_ dal modulo "_Eventi_"
 - Manca in pagina ed in API il collegamento alla pagina _risultati finanziari_ dal modulo "_Risultati Finanziari_"
+- Manca il mapping con il CSV
 
 ## Strategia
 
