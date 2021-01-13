@@ -32,6 +32,11 @@ mapping:
       content: field_content > processed
     relationship:
       cta: field_cta_related_content > data >>
+  node--gallery_only_images_module:
+    direct:
+      background: field_background
+    relationship:
+      images: field_multiple_images_media > data >>
   node--multipurpose_module:
     direct:
       title: field_title_bold > processed
@@ -101,3 +106,6 @@ mapping:
   editorial_slide_block--iframe_block:
     direct:
       iframe_code: field_code
+  media--image:
+    relationship:
+      image: field_background_image_media > data > id >> field_media_image > data > id >>

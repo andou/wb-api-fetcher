@@ -8,3 +8,4 @@ first_level_node_types:
   - node--tabs_module # Used in Sostenibilità
   - node--text_image_2_cols_module # Used in investitori
   - node--thematic_blocks_module # Used in Group
+  - node--gallery_only_images_module # Used in sostenibilità
