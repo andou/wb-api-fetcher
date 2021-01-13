@@ -174,7 +174,7 @@ php bin/console app:fetch f3e954fb-1c1b-4866-b972-11028511eb15 http://corporateb
 
 |   |   |
 | - | - |
-| Status | **Mapped** except for the _view_ module |
+| Status | **Mapped** |
 | URI | http://testapp.salini-impregilo.doing.com/it/investitori/calendario |
 | Base URL | http://corporatebe-qa.salini-impregilo.doing.com |
 | ID | 57dd64d4-8869-4c68-ae41-b8f880f090b5 |
@@ -183,9 +183,8 @@ php bin/console app:fetch f3e954fb-1c1b-4866-b972-11028511eb15 http://corporateb
 php bin/console app:fetch 57dd64d4-8869-4c68-ae41-b8f880f090b5 http://corporatebe-qa.salini-impregilo.doing.com
 ```
 ### Note
-- La sezione eventi è realizzata tramite modulo `node--view_module`
-- In APP è presente una CTA "_Tutti gli eventi_" che manca in API ma non è chiaro a cosa dovrebbe puntare
-
+- Sembra tutto ok
+ 
 ## Podcast
 
 |   |   |
